@@ -1,7 +1,6 @@
 def q1(): 
   #Write Assignment code here
-  num=eval(input("Enter a number"))
-  print(f"In: ")
+  num=eval(input("In: "))
   if num%2==0:
     print(f"{num} is even")
   else:
