@@ -1,8 +1,7 @@
-
-
 def q1(): 
   #Write Assignment code here
   num=eval(input("Enter a number"))
+  print(f"In: ")
   if num%2==0:
     print(f"{num} is even")
   else:
@@ -10,11 +9,13 @@ def q1():
 
 def q2(): 
   #Write Assignment code here
-  name=input("Enter a name")
+  name=input("In: ")
   if name=='Kalisz':
     print('teacher')
   else:
     print('student')
+
+
 
 
 #Do not alter the following code
